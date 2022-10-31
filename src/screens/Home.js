@@ -3,7 +3,8 @@ import { useFetch } from "../hooks/useFetch";
 import "../styles/Home.css";
 
 function Home({ handleAddCart }) {
-  const data = useFetch("http://localhost:3000/products");
+  const url = process.env.REACT_APP_API_URL;
+  const data = useFetch(url + "/products");
   const roupas = data.slice(0, 12);
   return (
     <div className="containerHome">

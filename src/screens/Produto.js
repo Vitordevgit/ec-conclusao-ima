@@ -28,8 +28,9 @@ const responsive = {
 
 function Produto({ handleAddCart }) {
   const { id } = useParams();
-  const produtoItem = useFetch("http://localhost:3000/products/" + id);
-  const data = useFetch("http://localhost:3000/products");
+  const url = process.env.REACT_APP_API_URL;
+  const produtoItem = useFetch(url + "/products/" + id);
+  const data = useFetch(url + "/products");
   const roupas = data
     .filter((e) => {
       return (

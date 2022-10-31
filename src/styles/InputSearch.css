@@ -1,0 +1,15 @@
+.containerInputSearch {
+  /* p: "2px 4px", */
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+  background: transparent;
+  border: 1px solid rgb(146, 146, 146);
+  border-radius: 50px;
+  background-color: white;
+}
+.onInputSearch {
+  padding: 0 20px;
+  flex: 1;
+}

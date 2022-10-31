@@ -1,0 +1,49 @@
+.containerMenu {
+  display: flex;
+  margin: 0 auto 20px auto;
+  max-width: 1600px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Jost";
+  font-weight: 600;
+  font-size: 24px;
+}
+.linkTitleNavBar {
+  font-family: "Jost";
+  font-weight: 300;
+  font-size: 40px;
+  text-decoration: none;
+  color: rgb(55, 55, 55);
+}
+.linkNavBar {
+  font-family: "Jost";
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0 10px;
+  text-decoration: none;
+  color: rgb(55, 55, 55);
+}
+.linkNavBar:hover {
+  color: white;
+  background-color: rgb(146, 146, 146);
+  border-radius: 5px;
+}
+
+/* MOBILE */
+@media (max-width: 512px) {
+  .containerMenu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Jost";
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0;
+  }
+  .linkNavBar {
+    padding-bottom: 10px;
+  }
+}

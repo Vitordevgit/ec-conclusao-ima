@@ -1,0 +1,9 @@
+.cartIcon:hover {
+  scale: 1.5;
+  cursor: pointer;
+}
+@media (max-width: 512px) {
+  .cartIcon:hover {
+    scale: 1;
+  }
+}

@@ -1,0 +1,21 @@
+.buttonAddCart {
+  width: 120px;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid rgb(146, 146, 146);
+  background-color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+.buttonAddCart:hover {
+  background-color: rgb(146, 146, 146);
+  border: rgb(146, 146, 146);
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+.buttonAddCart:active {
+  background-color: rgb(25, 138, 0);
+  border: rgb(25, 138, 0);
+}

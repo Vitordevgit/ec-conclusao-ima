@@ -1,0 +1,16 @@
+.containerHome {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  max-width: 1600px;
+  flex-wrap: wrap;
+}
+
+/* MOBILE */
+@media (max-width: 512px) {
+  .containerHome {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
